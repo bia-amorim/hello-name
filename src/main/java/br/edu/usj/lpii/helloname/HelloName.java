@@ -14,7 +14,7 @@ public class HelloName {
         
         ModelAndView modelAndView = new ModelAndView("hello-name");
         
-        String bemVindo = "Olá" + nome + " pessoa incrível da internet!";
+        String bemVindo = "Olá " + nome + " pessoa incrível da internet!";
         modelAndView.addObject("mensagem", bemVindo);
 
         return modelAndView;
